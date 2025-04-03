@@ -27,4 +27,15 @@ A full-stack **Library Management Web App** built using **React (TypeScript)** f
 - Create React Library Services: Create new .tsx component that will redirect a user to the library services page.
 - Create React Footer Component: Create new .tsx component that will be at the bottom of every page.
 
+## Version 2: (Spring Boot Backend)
+
+- Set up the database tables
+- Create a Spring Boot starter project (start.spring.io)
+- - spring-boot-starter-data-jpa
+- - spring-boot-starter-data-rest
+- - mysql-connecter-java
+- - lombok
+- Develop the Entity: Book
+- Create REST APIs with Spring Data JPA Repositories and Spring Data REST
+
 Stay tuned for updates! 🚀

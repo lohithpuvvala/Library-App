@@ -1,22 +1,18 @@
 import './App.css';
 import { Navbar } from './layouts/NavbarAndFooter/Navbar';
-import { ExploreTopBooks } from './layouts/Hompage/ExploreTopBooks';
-import { Carousel } from './layouts/Hompage/Carousel';
-import { Heros } from './layouts/Hompage/Heros';
-import { LibraryServices } from './layouts/Hompage/LibraryServices';
+import { ExploreTopBooks } from './layouts/Hompage/Components/ExploreTopBooks';
+import { Carousel } from './layouts/Hompage/Components/Carousel';
+import { Heros } from './layouts/Hompage/Components/Heros';
+import { LibraryServices } from './layouts/Hompage/Components/LibraryServices';
 import { Footer } from './layouts/NavbarAndFooter/Footer';
+import { Homepage } from './layouts/Hompage/Homepage';
 
-function App() {
+export const App = () => {
   return (
     <div>
       <Navbar />
-      <ExploreTopBooks />
-      <Carousel />
-      <Heros />
-      <LibraryServices />
+      <Homepage />
       <Footer />
     </div>
   );
 }
-
-export default App;
